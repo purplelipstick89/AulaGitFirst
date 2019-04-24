@@ -14,6 +14,8 @@
 		3FC7F6702270CF6F0048149C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC7F66E2270CF6F0048149C /* LaunchScreen.storyboard */; };
 		3FC7F67B2270CF700048149C /* AulaGitFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F67A2270CF700048149C /* AulaGitFirstTests.swift */; };
 		3FC7F6862270CF700048149C /* AulaGitFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F6852270CF700048149C /* AulaGitFirstUITests.swift */; };
+		3FC7F6942270D3230048149C /* ReceitaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F6932270D3230048149C /* ReceitaViewController.swift */; };
+		3FC7F6962270D3440048149C /* receita2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7F6952270D3440048149C /* receita2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3FC7F6812270CF700048149C /* AulaGitFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AulaGitFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC7F6852270CF700048149C /* AulaGitFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaGitFirstUITests.swift; sourceTree = "<group>"; };
 		3FC7F6872270CF700048149C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC7F6932270D3230048149C /* ReceitaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaViewController.swift; sourceTree = "<group>"; };
+		3FC7F6952270D3440048149C /* receita2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receita2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		3FC7F6592270CF6E0048149C = {
 			isa = PBXGroup;
 			children = (
+				3FC7F6952270D3440048149C /* receita2.swift */,
 				3FC7F6642270CF6E0048149C /* AulaGitFirst */,
 				3FC7F6792270CF700048149C /* AulaGitFirstTests */,
 				3FC7F6842270CF700048149C /* AulaGitFirstUITests */,
@@ -103,6 +108,7 @@
 				3FC7F66C2270CF6F0048149C /* Assets.xcassets */,
 				3FC7F66E2270CF6F0048149C /* LaunchScreen.storyboard */,
 				3FC7F6712270CF6F0048149C /* Info.plist */,
+				3FC7F6932270D3230048149C /* ReceitaViewController.swift */,
 			);
 			path = AulaGitFirst;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC7F6962270D3440048149C /* receita2.swift in Sources */,
 				3FC7F6682270CF6E0048149C /* ViewController.swift in Sources */,
+				3FC7F6942270D3230048149C /* ReceitaViewController.swift in Sources */,
 				3FC7F6662270CF6E0048149C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
